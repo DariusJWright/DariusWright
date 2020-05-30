@@ -10,22 +10,24 @@ body {
 
 Header {
     padding: 20px 25px;
-    background-color: tomato;
+    background-image: url(./images/big-photo.jpg);
+    background-position: 100%;
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 header h1 {
     font-weight: bold;
     font-size: 35px;
-    color: black;
+    color: yellow;
     margin: 0;
-    text-shadow: 3px 3px 5px black;
+    
+    text-shadow: 3px 3px 5px lightyellow;
+    transition: 1s;
 }
-
-
 
 header nav {
     margin: 8px 0;
@@ -44,23 +46,52 @@ header nav ul li {
 }  
 
 header nav ul li a {
+    color: yellow;
     font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
     padding: 10px 35px;
-    text-shadow: 3px 3px 10px black;
+    text-shadow: 3px 3px 5px lightyellow;
 }
+
 header a {
     text-decoration: none;
     color: black;
+    transition: 1s;
+}
+
+header a:hover {
+    border: 2px solid wheat;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    background-image: linear-gradient(135deg, yellow, cyan);
+    transform: rotateY(360deg);
 }
 
 .big-photo {
-   background-image: url("./images/big-photo.jpg");
-   background-size: cover;
+    height: 175px;
+    background-image: url("./images/big-photo.jpg");
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
-/* .big-photo h3 {
-    color: white;
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-} */
+.big-photo h3 {
+    font-size: 25px;
+    padding: 3px;
+    border-radius: 10px;
+    margin: 0px 100px 20px 0px;
+    background-image: linear-gradient(90deg, yellow, cyan);
+    transition: 1s;
+}
+
+.big-photo h3:hover{
+    transform: rotateY(360deg) ;
+}
+
+
