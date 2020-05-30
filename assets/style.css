@@ -21,7 +21,7 @@ Header {
     background-attachment: fixed;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 header h1 {
@@ -43,9 +43,9 @@ header nav {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     list-style: none;
+    justify-content: space-between;
 }    
 
 header nav ul li {
@@ -90,6 +90,7 @@ header a:hover {
 }
 
 .big-photo h3 {
+    color: black;
     font-size: 25px;
     padding: 3px;
     border-radius: 10px;
@@ -193,8 +194,8 @@ header a:hover {
 
 footer {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -203,18 +204,37 @@ footer h2 {
     margin-left: 50px;
     padding: 20px;
     text-align: right;
+    border-right: 2px solid black;
 }
 
-footer div ul li {
+footer nav {
+    padding-left: 50px;
+}
+
+footer nav ul {
+    margin-right: 50px;
+}
+
+footer nav ul li {
     display: inline;
 }
 
-footer div ul li a {
+footer nav ul li a {
     color: yellow;
     font-size: large;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px 35px;
-    text-shadow: 3px 3px 5px lightyellow;
+    /* text-shadow: 3px 3px 5px lightyellow; */
+    text-decoration: none;
 }
 
+footer a:hover {
+    border: 2px solid wheat;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    /* padding: 5px; */
+    background-image: linear-gradient(90deg, yellow, midnightblue);
+    transform: rotateY(360deg);
+}
