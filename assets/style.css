@@ -74,13 +74,12 @@ header a:hover {
     border-radius: 10px;
     background-color: yellow;
     color: black;
-    /* padding: 5px; */
     background-image: linear-gradient(90deg, yellow, midnightblue);
     transform: rotateY(360deg);
 }
 
 .big-photo {
-    height: 100px;
+    height: 231px;
     background-image: url("./images/big-photo.jpg");
     background-size: cover;
     background-position: 100%;
@@ -89,6 +88,15 @@ header a:hover {
     align-items: flex-end;
     justify-content: flex-end;
     flex-wrap: wrap;
+    position: relative;
+}
+
+.big-photo img {
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+    height: 231px;
+    width: 150px;
 }
 
 .big-photo h3 {
