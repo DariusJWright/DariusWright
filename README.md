@@ -14,4 +14,4 @@ https://zero758.github.io/DariusWright/
 Created by Darius Wright
 
 ## Screenshot
-![screenshot](./assets/images/FireShot Capture 003 - Darius Wright - .png)
+![screenshot](./assets/images/screenshot.png)
