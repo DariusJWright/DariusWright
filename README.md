@@ -1,7 +1,7 @@
 # Darius Wright
 
 ## Purpose
-A website showing off my extensive skills.
+A website showing off my very limited skills.
 
 ## Built With
 * HTML
